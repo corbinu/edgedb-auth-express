@@ -1,0 +1,7 @@
+services:
+  mailcrab:
+    image: marlonb/mailcrab
+    restart: unless-stopped
+    ports:
+      - "1080:1080"
+      - "1025:1025"
